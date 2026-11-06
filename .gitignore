@@ -1,0 +1,17 @@
+# ESP-IDF build output and downloaded components
+build/
+managed_components/
+dependencies.lock
+
+# Your own configuration. It contains your WiFi name and password!
+sdkconfig
+sdkconfig.old
+
+# Editor and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Firmware backups
+*.bak
